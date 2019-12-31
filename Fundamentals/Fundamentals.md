@@ -15,3 +15,19 @@ The binary or build directory is where everything created by the build ends up.
 
 When building a project the developer can take two different approaches:  *in-source*  and *out-of-source* builds.
 
+## In-source builds or Out-of-source Builds
+
+The preferable organization of your project is for the source and build directories to be different, which is an *out-of-source* build. This avoids intermixing problems created by an *in-source* approach and makes version control easier. An added advantage is it allows multiple builds with different configurations.
+
+
+## Generating Project Files
+
+
+
+
+```bash
+mkdir build
+cd build
+cmake -G "Unix Makefiles" ../source
+```
+

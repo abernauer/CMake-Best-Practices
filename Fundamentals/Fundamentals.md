@@ -22,7 +22,7 @@ The preferable organization of your project is for the source and build director
 
 ## Generating Project Files
 
-After selecting your directory structure discussed above the developer runs CMake, which in turn reads in the CMakeLists.txt file and creates the project in the build directory. You select a type of *generator* which determines your project files. The following list is available
+After selecting your directory structure discussed above the developer runs CMake, which in turn reads in the CMakeLists.txt file and creates the project in the build directory. You select a type of *generator* which determines your project files. The following list is available:
 
 + Visual Studio
   + Visual Studio 15 2017
@@ -39,7 +39,7 @@ After selecting your directory structure discussed above the developer runs CMak
 
 
 
-
+The simplest make to invoke/run CMakke is via the *cmake* command line utility. Demonstrated below. 
 
 
 ```bash
@@ -47,4 +47,8 @@ mkdir build
 cd build
 cmake -G "Unix Makefiles" ../source
 ```
+
+If you leave out the ```-G``` option, CMake will determine a default generator type on the host platform. The build process is a two part proccess consisting of a *configuring* and *generating* phase. In the *configuring* phase, CMake reads in the CMakeLists.txt file and builds an interpretation of the whole project. After completing this, the *generation* phase creates the project files.
+
+After finishing a run CMake, will save a CMakeCache.txt fil in the build directory.
 

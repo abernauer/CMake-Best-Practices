@@ -22,6 +22,23 @@ The preferable organization of your project is for the source and build director
 
 ## Generating Project Files
 
+After selecting your directory structure discussed above the developer runs CMake, which in turn reads in the CMakeLists.txt file and creates the project in the build directory. You select a type of *generator* which determines your project files. The following list is available
+
++ Visual Studio
+  + Visual Studio 15 2017
+  + Visual Studio 14 2015
+
++ Xcode
+  + Xcode
+
++ Makefiles
+  + Unix Makefiles
+  + MSYS Makefiles
+  + MinGW Makefiles
+  + NMake Makefiles
+
+
+
 
 
 

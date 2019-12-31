@@ -9,7 +9,9 @@ The first stage takes a generic project description and generates platform-speci
 
 A CMakeLists.txt file is a human readable file that brings order to your project which is a essentially a collection of files. The file defines what should be built and how, what tests to run and what packages(s) to create. It is an agnostic description of the project, which CMake then turns into platform specific build tools.
 
-A fundamental principal of CMake is that your project has both a source directory and a binary directory. The location of your projects'
+A fundamental principal of CMake is that your project has both a source directory and a binary directory. The source directory is the location of your CMakesLists.txt file and the project's source files as well as other files needed to build your project.
 
-When building a project the developer can take two different approache: _in-sourcse_ and _out_of_source builds.
+The binary or build directory is where everything created by the build ends up. 
+
+When building a project the developer can take two different approaches:  *in-source*  and *out-of-source* builds.
 

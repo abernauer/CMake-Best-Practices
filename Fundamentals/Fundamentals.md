@@ -50,5 +50,5 @@ cmake -G "Unix Makefiles" ../source
 
 If you leave out the ```-G``` option, CMake will determine a default generator type on the host platform. The build process is a two part proccess consisting of a *configuring* and *generating* phase. In the *configuring* phase, CMake reads in the CMakeLists.txt file and builds an interpretation of the whole project. After completing this, the *generation* phase creates the project files.
 
-After finishing a run CMake, will save a CMakeCache.txt fil in the build directory.
+After finishing a run CMake, will save a CMakeCache.txt file in the build directory.
 

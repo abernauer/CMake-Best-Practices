@@ -8,4 +8,5 @@ Other aspects of CMake will be covered in different directories.
 
 # To do
 
-+ implement selecton and headers for other sections 
++ implement skeleton and headers for other sections.
+  

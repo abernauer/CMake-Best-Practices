@@ -9,4 +9,5 @@ Other aspects of CMake will be covered in different directories.
 # To do
 
 + implement skeleton and headers for other sections.
++ identify sections in the notes that would benefit from diagrams or images.
   

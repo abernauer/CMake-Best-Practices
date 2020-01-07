@@ -10,4 +10,5 @@ Other aspects of CMake will be covered in different directories.
 
 + implement skeleton and headers for other sections.
 + identify sections in the notes that would benefit from diagrams or images.
++ Tom set up repo for bash shell scripting.
   
